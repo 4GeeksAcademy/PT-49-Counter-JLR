@@ -1,12 +1,26 @@
+.clockcontainer{
+    text-align: center;
+    margin-top: 20px;
+    background: black;
+    padding: 35px;
+    box-shadow:  0px -2px 4px black;
+}
 
-/* 
+.clockcontainer div{
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 90px;
+    line-height: 70px;
+    background: rgb(25, 24, 24);
+    color: white;
+    padding: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow:  0px -2px 4px gray;
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
 
-*/
+.clock{
+    padding-top: 28px !important;
+    padding-bottom: 22px !important;
+}
